@@ -1,4 +1,14 @@
-## 📊 Marketing for Finance Analysis Case Study
+<h1 align="center">Shell IDA Case Study</h1>
+
+<p align="center">
+  <img src="https://hub.shell.com/Fallback/Assets/Images/ribbon-logo.svg" align="center" alt="Logo" width="150" height="150">
+ </p>
+ 
+ <p align="center">Final Project Case Study for Shell IDA custom <br>bootcamp : CS7-Marketing-for-finance analysis✨
+<br>
+</p>
+
+## 📊 Marketing for Finance Analysis
 The primary issue revolves around the challenge faced by bank officials in effectively targeting the
 appropriate individuals for a successful campaign. This requires the marketing team to meticulously
 examine diverse customer details such as occupation, income, age, educational background, and

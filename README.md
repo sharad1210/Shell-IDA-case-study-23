@@ -22,3 +22,8 @@ As a data engineer, your initial step involves generating a preliminary document
 * [Data Dictionary](https://github.com/manojkumarsingh77/Shell2023/blob/main/MarketingForFinance/DataDictionary/MarketingForFinance_DD.pdf)
 * [Data Sets](https://github.com/manojkumarsingh77/Shell2023/blob/main/MarketingForFinance/DataSets/MarketingForFinanceDataset.zip)
 * [Instructions](https://notepad.pw/shellidasep23)
+
+## ✏️ Proposed flowchart
+
+![image](https://github.com/sharad1210/Shell-IDA-case-study-23/assets/56643117/af508ac1-23a9-49c7-b83e-f6288ec784f1)
+

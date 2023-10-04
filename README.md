@@ -21,3 +21,4 @@ As a data engineer, your initial step involves generating a preliminary document
 
 * [Data Dictionary](https://github.com/manojkumarsingh77/Shell2023/blob/main/MarketingForFinance/DataDictionary/MarketingForFinance_DD.pdf)
 * [Data Sets](https://github.com/manojkumarsingh77/Shell2023/blob/main/MarketingForFinance/DataSets/MarketingForFinanceDataset.zip)
+* [Instructions](https://notepad.pw/shellidasep23)

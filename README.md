@@ -25,5 +25,5 @@ As a data engineer, your initial step involves generating a preliminary document
 
 ## ✏️ Proposed flowchart
 
-![image](https://github.com/sharad1210/Shell-IDA-case-study-23/assets/56643117/af508ac1-23a9-49c7-b83e-f6288ec784f1)
+![image](https://github.com/sharad1210/Shell-IDA-case-study-23/assets/56643117/2385a412-b455-4292-b9c5-6a6d62807b8e)
 

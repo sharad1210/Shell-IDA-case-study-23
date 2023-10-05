@@ -1,0 +1,9 @@
+{
+	"name": "case-study-7-ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f378e89a-c2d3-45cd-932c-f8e0b91c92a8",
+		"tenantId": "dce87315-8ffa-4a01-ab40-0de5a7214b2f"
+	}
+}

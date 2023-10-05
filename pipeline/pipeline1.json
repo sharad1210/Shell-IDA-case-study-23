@@ -1,0 +1,348 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data1",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".csv"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "age",
+									"type": "Int32",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "age",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "job",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "job",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "marital",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "marital",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "education",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "education",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "default",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "default",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "housing",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "housing",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "loan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "loan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "contact",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "contact",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "month",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "month",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "day_of_week",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "day_of_week",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "duration",
+									"type": "Int32",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "duration",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "campaign",
+									"type": "Int32",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "campaign",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "pdays",
+									"type": "Int32",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "pdays",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "previous",
+									"type": "Int32",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "previous",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "poutcome",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "poutcome",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "emp.var.rate",
+									"type": "Decimal",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "emp.var.rate",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "cons.price.idx",
+									"type": "Decimal",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "cons.price.idx",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "cons.conf.idx",
+									"type": "Decimal",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "cons.conf.idx",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "euribor3m",
+									"type": "Decimal",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "euribor3m",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "nr.employed",
+									"type": "Decimal",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "nr.employed",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "y",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "y",
+									"type": "String",
+									"physicalType": "String"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "source",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Sink",
+						"type": "DatasetReference"
+					}
+				]
+			},
+			{
+				"name": "Notebook1",
+				"type": "DatabricksNotebook",
+				"dependsOn": [
+					{
+						"activity": "Copy data1",
+						"dependencyConditions": [
+							"Completed"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Users/shellunext_1693422079075@npunext.onmicrosoft.com/Case Study 7 Databricks Notebook"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2023-10-05T10:14:58Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

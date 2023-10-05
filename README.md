@@ -33,7 +33,7 @@ As a data engineer, your initial step involves generating a preliminary document
 * [Data Sets](https://github.com/manojkumarsingh77/Shell2023/blob/main/MarketingForFinance/DataSets/MarketingForFinanceDataset.zip)
 * [Instructions](https://notepad.pw/shellidasep23)
 
-## ✏️ Proposed flowchart
+## ✏️ Proposed Architecture
+![final-arch](https://github.com/sharad1210/Shell-IDA-case-study-23/assets/56643117/9f07c2a4-2f06-4755-aca8-7713a17672df)
 
-![image](https://github.com/sharad1210/Shell-IDA-case-study-23/assets/56643117/2385a412-b455-4292-b9c5-6a6d62807b8e)
 

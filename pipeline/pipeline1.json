@@ -302,13 +302,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "source",
+						"referenceName": "Source_github_csv",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "Sink",
+						"referenceName": "Sink_Datalake_gen2",
 						"type": "DatasetReference"
 					}
 				]

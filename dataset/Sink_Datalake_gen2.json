@@ -1,5 +1,5 @@
 {
-	"name": "Sink",
+	"name": "Sink_Datalake_gen2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",

@@ -1,5 +1,5 @@
 {
-	"name": "source",
+	"name": "Source_github_csv",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "HttpServer1",

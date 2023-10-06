@@ -36,4 +36,9 @@ As a data engineer, your initial step involves generating a preliminary document
 ## ✏️ Proposed Architecture
 ![final-arch](https://github.com/sharad1210/Shell-IDA-case-study-23/assets/56643117/9f07c2a4-2f06-4755-aca8-7713a17672df)
 
+## ⚙️ Few Dataset Specifications
 
+* **emp.var.rate (Employment Variation Rate - Quaterly indicator):** The Employment Variation Rate is a percentage that represents the change in the number of employed individuals in an economy over a specific period, serving as an indicator of labor market dynamics and economic health.
+* **cons.price.idx (Consumer Price Index - Monthly indicator):** The Consumer Price Index (CPI) is a measure that tracks the average change in prices paid by consumers for a basket of goods and services over time, reflecting inflation or deflation in an economy.
+* **cons.conf.idx (Consumer Confidence Index - Monthly indicator):** The Consumer Confidence Index (CCI) is a statistical measure that assesses consumers' sentiment and outlook regarding the economic conditions and their financial well-being, serving as an indicator of consumer optimism or pessimism.
+* **euribor3m (Euribor 3 month rate):** The Euribor 3-Month Rate is the interest rate at which European banks lend to one another for a three-month period, serving as a key benchmark for financial markets and loan pricing in the Eurozone.
